@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login-acc</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>08a578fe-c8d8-4b9a-aee1-30b385f1b6cc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8979fd51-46d1-4dc8-95c4-d6ba119f629f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e418409f-5cd8-4f9e-a82e-3dec9ecd0ac0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Nabilah'</defaultValue>
+      <description></description>
+      <id>8979fd51-46d1-4dc8-95c4-d6ba119f629f</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pass123'</defaultValue>
+      <description></description>
+      <id>e418409f-5cd8-4f9e-a82e-3dec9ecd0ac0</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

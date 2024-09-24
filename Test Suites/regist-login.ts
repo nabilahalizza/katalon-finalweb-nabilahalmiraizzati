@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>regist-login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>30ce5e8c-f07b-4b6e-bc7a-a6f8187a2be2</testSuiteGuid>
+   <testCaseLink>
+      <guid>5bb01ea1-cf01-4a7a-93f6-606a44f54d3c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/registration-acc</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ae3671e6-cc56-485d-a2d0-3a663decbfe4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/login-acc</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>58e971e1-1a77-4332-80c6-d3ab4c615737</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/login-data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>58e971e1-1a77-4332-80c6-d3ab4c615737</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>8979fd51-46d1-4dc8-95c4-d6ba119f629f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>58e971e1-1a77-4332-80c6-d3ab4c615737</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>e418409f-5cd8-4f9e-a82e-3dec9ecd0ac0</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

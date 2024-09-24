@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="add-checkout-product" time="25.492" tests="2" failures="0" errors="0">
+   <testsuite name="add-checkout-product" tests="2" failures="0" errors="0" time="25.492" skipped="0" timestamp="23-09-2024T23:23:02" hostname="nabilahalizza - nabilahs-mbp.lan" id="Test Suites/add-checkout-product">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/nabilahalizza/git/katalon-finalweb-nabilahalmiraizzati/Reports/20240923_232258/add-checkout-product/20240923_232258"/>
+         <property name="logFiles" value="/Users/nabilahalizza/git/katalon-finalweb-nabilahalmiraizzati/Reports/20240923_232258/add-checkout-product/20240923_232258/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nabilahalizza - nabilahs-mbp.lan"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="192.168.8.179"/>
+         <property name="sessionId" value="38339df894873ffa6c6f712705cdbdcf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/add-product-offer" time="21.366" classname="Test Cases/add-product-offer" status="PASSED">
+         <system-out><![CDATA[23-09-2024T23:23:02 - [TEST_CASE][PASSED] - Test Cases/add-product-offer: Test Cases/add-product-offer
+
+23-09-2024T23:23:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-09-2024T23:23:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-09-2024T23:23:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-09-2024T23:23:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-09-2024T23:23:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-09-2024T23:23:06 - [MESSAGE][PASSED] - Current window maximized
+
+23-09-2024T23:23:06 - [TEST_STEP][PASSED] - navigateToUrl(mainURL): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+23-09-2024T23:23:10 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+23-09-2024T23:23:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-09-2024T23:23:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-09-2024T23:23:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("specialoffer-tab"), 0): Object 'Object Repository/specialoffer-tab' is present
+
+23-09-2024T23:23:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-09-2024T23:23:13 - [MESSAGE][PASSED] - Object 'Object Repository/specialoffer-tab' is present
+
+23-09-2024T23:23:13 - [TEST_STEP][PASSED] - click(findTestObject("specialoffer-tab")): Object: 'Object Repository/specialoffer-tab' is clicked on
+
+23-09-2024T23:23:15 - [MESSAGE][PASSED] - Object: 'Object Repository/specialoffer-tab' is clicked on
+
+23-09-2024T23:23:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-09-2024T23:23:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-09-2024T23:23:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("seeoffer-btn"), 0): Object 'Object Repository/seeoffer-btn' is present
+
+23-09-2024T23:23:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-09-2024T23:23:17 - [MESSAGE][PASSED] - Object 'Object Repository/seeoffer-btn' is present
+
+23-09-2024T23:23:17 - [TEST_STEP][PASSED] - click(findTestObject("seeoffer-btn")): Object: 'Object Repository/seeoffer-btn' is clicked on
+
+23-09-2024T23:23:18 - [MESSAGE][PASSED] - Object: 'Object Repository/seeoffer-btn' is clicked on
+
+23-09-2024T23:23:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-09-2024T23:23:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-09-2024T23:23:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("atcoffer-btn"), 0): Object 'Object Repository/atcoffer-btn' is present
+
+23-09-2024T23:23:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-09-2024T23:23:20 - [MESSAGE][PASSED] - Object 'Object Repository/atcoffer-btn' is present
+
+23-09-2024T23:23:20 - [TEST_STEP][PASSED] - click(findTestObject("atcoffer-btn")): Object: 'Object Repository/atcoffer-btn' is clicked on
+
+23-09-2024T23:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/atcoffer-btn' is clicked on
+
+23-09-2024T23:23:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("copopup-btn"), 0): Object 'Object Repository/copopup-btn' is present
+
+23-09-2024T23:23:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-09-2024T23:23:23 - [MESSAGE][PASSED] - Object 'Object Repository/copopup-btn' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/checkout-product-offer" time="3.944" classname="Test Cases/checkout-product-offer" status="PASSED">
+         <system-out><![CDATA[23-09-2024T23:23:23 - [TEST_CASE][PASSED] - Test Cases/checkout-product-offer: Test Cases/checkout-product-offer
+
+23-09-2024T23:23:24 - [TEST_STEP][PASSED] - isiChart = getText(findTestObject("cartnum")): Text of object 'Object Repository/cartnum' is: '1'
+
+23-09-2024T23:23:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/cartnum' is: '1'
+
+23-09-2024T23:23:24 - [TEST_STEP][PASSED] - if (isiChart > 0): Object 'Object Repository/orderpayment-txt' is present
+
+23-09-2024T23:23:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart-btn"), 0): Object 'Object Repository/cart-btn' is present
+
+23-09-2024T23:23:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-09-2024T23:23:24 - [MESSAGE][PASSED] - Object 'Object Repository/cart-btn' is present
+
+23-09-2024T23:23:24 - [TEST_STEP][PASSED] - click(findTestObject("cart-btn")): Object: 'Object Repository/cart-btn' is clicked on
+
+23-09-2024T23:23:24 - [MESSAGE][PASSED] - Object: 'Object Repository/cart-btn' is clicked on
+
+23-09-2024T23:23:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart-btn"), 0): Object 'Object Repository/cart-btn' is present
+
+23-09-2024T23:23:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-09-2024T23:23:26 - [MESSAGE][PASSED] - Object 'Object Repository/cart-btn' is present
+
+23-09-2024T23:23:26 - [TEST_STEP][PASSED] - click(findTestObject("cart-btn")): Object: 'Object Repository/cart-btn' is clicked on
+
+23-09-2024T23:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/cart-btn' is clicked on
+
+23-09-2024T23:23:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("checkout-btn"), 0): Object 'Object Repository/checkout-btn' is present
+
+23-09-2024T23:23:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-09-2024T23:23:26 - [MESSAGE][PASSED] - Object 'Object Repository/checkout-btn' is present
+
+23-09-2024T23:23:26 - [TEST_STEP][PASSED] - click(findTestObject("checkout-btn")): Object: 'Object Repository/checkout-btn' is clicked on
+
+23-09-2024T23:23:27 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout-btn' is clicked on
+
+23-09-2024T23:23:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("orderpayment-txt"), 0): Object 'Object Repository/orderpayment-txt' is present
+
+23-09-2024T23:23:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-09-2024T23:23:27 - [MESSAGE][PASSED] - Object 'Object Repository/orderpayment-txt' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-09-2024T23:23:02 - [TEST_SUITE][PASSED] - add-checkout-product: Test Cases/checkout-product-offer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

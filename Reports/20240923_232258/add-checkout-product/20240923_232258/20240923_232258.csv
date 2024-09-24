@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+add-checkout-product,Chrome 128.0.0.0,,,23-09-2024 23:23:02,23-09-2024 23:23:27,25.492s,PASSED
+,,,,,,,
+Test Cases/add-product-offer,Chrome 128.0.0.0,,,23-09-2024 23:23:02,23-09-2024 23:23:23,21.366s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,23-09-2024 23:23:02,23-09-2024 23:23:06,3.819s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,23-09-2024 23:23:06,23-09-2024 23:23:06,0.357s,PASSED
+navigateToUrl(mainURL),Chrome 128.0.0.0,,,23-09-2024 23:23:06,23-09-2024 23:23:10,3.288s,PASSED
+delay(2),Chrome 128.0.0.0,,,23-09-2024 23:23:10,23-09-2024 23:23:12,2.069s,PASSED
+"verifyElementPresent(findTestObject(""specialoffer-tab""), 0)",Chrome 128.0.0.0,,,23-09-2024 23:23:12,23-09-2024 23:23:13,0.775s,PASSED
+"click(findTestObject(""specialoffer-tab""))",Chrome 128.0.0.0,,,23-09-2024 23:23:13,23-09-2024 23:23:15,2.544s,PASSED
+delay(2),Chrome 128.0.0.0,,,23-09-2024 23:23:15,23-09-2024 23:23:17,2.094s,PASSED
+"verifyElementPresent(findTestObject(""seeoffer-btn""), 0)",Chrome 128.0.0.0,,,23-09-2024 23:23:17,23-09-2024 23:23:17,0.291s,PASSED
+"click(findTestObject(""seeoffer-btn""))",Chrome 128.0.0.0,,,23-09-2024 23:23:17,23-09-2024 23:23:18,0.336s,PASSED
+delay(2),Chrome 128.0.0.0,,,23-09-2024 23:23:18,23-09-2024 23:23:20,2.010s,PASSED
+"verifyElementPresent(findTestObject(""atcoffer-btn""), 0)",Chrome 128.0.0.0,,,23-09-2024 23:23:20,23-09-2024 23:23:20,0.369s,PASSED
+"click(findTestObject(""atcoffer-btn""))",Chrome 128.0.0.0,,,23-09-2024 23:23:20,23-09-2024 23:23:23,2.523s,PASSED
+"verifyElementPresent(findTestObject(""copopup-btn""), 0)",Chrome 128.0.0.0,,,23-09-2024 23:23:23,23-09-2024 23:23:23,0.605s,PASSED
+,,,,,,,
+Test Cases/checkout-product-offer,Chrome 128.0.0.0,,,23-09-2024 23:23:23,23-09-2024 23:23:27,3.944s,PASSED
+"isiChart = getText(findTestObject(""cartnum""))",Chrome 128.0.0.0,,,23-09-2024 23:23:24,23-09-2024 23:23:24,0.262s,PASSED
+if (isiChart > 0),Chrome 128.0.0.0,,,23-09-2024 23:23:24,23-09-2024 23:23:27,3.513s,PASSED

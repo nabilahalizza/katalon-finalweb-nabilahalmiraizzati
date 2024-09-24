@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test-data" time="70.854" tests="3" failures="0" errors="0">
+   <testsuite name="test-data" tests="3" failures="0" errors="0" time="70.854" skipped="0" timestamp="23-09-2024T23:09:20" hostname="nabilahalizza - nabilahs-mbp.lan" id="Test Suites/test-data">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/nabilahalizza/git/katalon-finalweb-nabilahalmiraizzati/Reports/20240923_230916/test-data/20240923_230916"/>
+         <property name="logFiles" value="/Users/nabilahalizza/git/katalon-finalweb-nabilahalmiraizzati/Reports/20240923_230916/test-data/20240923_230916/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nabilahalizza - nabilahs-mbp.lan"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="192.168.8.179"/>
+         <property name="sessionId" value="49302815d3778f87a724501cb6280773"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/login-acc" time="25.242" classname="Test Cases/login-acc" status="PASSED">
+         <system-out><![CDATA[23-09-2024T23:09:20 - [TEST_CASE][PASSED] - Test Cases/login-acc: Test Cases/login-acc
+
+23-09-2024T23:09:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-09-2024T23:09:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-09-2024T23:09:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-09-2024T23:09:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-09-2024T23:09:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-09-2024T23:09:25 - [MESSAGE][PASSED] - Current window maximized
+
+23-09-2024T23:09:25 - [TEST_STEP][PASSED] - navigateToUrl(mainURL): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+23-09-2024T23:09:28 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+23-09-2024T23:09:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-09-2024T23:09:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-09-2024T23:09:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("user-menu"), 0): Object 'Object Repository/user-menu' is present
+
+23-09-2024T23:09:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-09-2024T23:09:31 - [MESSAGE][PASSED] - Object 'Object Repository/user-menu' is present
+
+23-09-2024T23:09:31 - [TEST_STEP][PASSED] - click(findTestObject("user-menu")): Object: 'Object Repository/user-menu' is clicked on
+
+23-09-2024T23:09:33 - [MESSAGE][PASSED] - Object: 'Object Repository/user-menu' is clicked on
+
+23-09-2024T23:09:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-09-2024T23:09:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-09-2024T23:09:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("username-field"), 0): Object 'Object Repository/username-field' is present
+
+23-09-2024T23:09:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-09-2024T23:09:36 - [MESSAGE][PASSED] - Object 'Object Repository/username-field' is present
+
+23-09-2024T23:09:36 - [TEST_STEP][PASSED] - setText(findTestObject("username-field"), Username): Text 'Nabilah' is set on object 'Object Repository/username-field'
+
+23-09-2024T23:09:36 - [MESSAGE][PASSED] - Text 'Nabilah' is set on object 'Object Repository/username-field'
+
+23-09-2024T23:09:36 - [TEST_STEP][PASSED] - setText(findTestObject("password-field"), Password): Text 'Pass123' is set on object 'Object Repository/password-field'
+
+23-09-2024T23:09:37 - [MESSAGE][PASSED] - Text 'Pass123' is set on object 'Object Repository/password-field'
+
+23-09-2024T23:09:37 - [TEST_STEP][PASSED] - click(findTestObject("signin-btn")): Object: 'Object Repository/signin-btn' is clicked on
+
+23-09-2024T23:09:38 - [MESSAGE][PASSED] - Object: 'Object Repository/signin-btn' is clicked on
+
+23-09-2024T23:09:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+23-09-2024T23:09:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+23-09-2024T23:09:43 - [TEST_STEP][PASSED] - if (Username == "Nabilah"): Delayed 2 second(s)
+
+23-09-2024T23:09:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("username-txt"), 0): Object 'Object Repository/username-txt' is present
+
+23-09-2024T23:09:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-09-2024T23:09:43 - [MESSAGE][PASSED] - Object 'Object Repository/username-txt' is present
+
+23-09-2024T23:09:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-09-2024T23:09:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-09-2024T23:09:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-09-2024T23:09:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login-acc" time="22.683" classname="Test Cases/login-acc" status="PASSED">
+         <system-out><![CDATA[23-09-2024T23:09:46 - [TEST_CASE][PASSED] - Test Cases/login-acc: Test Cases/login-acc
+
+23-09-2024T23:09:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-09-2024T23:09:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-09-2024T23:09:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-09-2024T23:09:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-09-2024T23:09:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-09-2024T23:09:48 - [MESSAGE][PASSED] - Current window maximized
+
+23-09-2024T23:09:48 - [TEST_STEP][PASSED] - navigateToUrl(mainURL): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+23-09-2024T23:09:51 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+23-09-2024T23:09:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-09-2024T23:09:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-09-2024T23:09:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("user-menu"), 0): Object 'Object Repository/user-menu' is present
+
+23-09-2024T23:09:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-09-2024T23:09:54 - [MESSAGE][PASSED] - Object 'Object Repository/user-menu' is present
+
+23-09-2024T23:09:54 - [TEST_STEP][PASSED] - click(findTestObject("user-menu")): Object: 'Object Repository/user-menu' is clicked on
+
+23-09-2024T23:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/user-menu' is clicked on
+
+23-09-2024T23:09:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-09-2024T23:09:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-09-2024T23:09:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("username-field"), 0): Object 'Object Repository/username-field' is present
+
+23-09-2024T23:09:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-09-2024T23:09:58 - [MESSAGE][PASSED] - Object 'Object Repository/username-field' is present
+
+23-09-2024T23:09:58 - [TEST_STEP][PASSED] - setText(findTestObject("username-field"), Username): Text 'Almira' is set on object 'Object Repository/username-field'
+
+23-09-2024T23:09:59 - [MESSAGE][PASSED] - Text 'Almira' is set on object 'Object Repository/username-field'
+
+23-09-2024T23:09:59 - [TEST_STEP][PASSED] - setText(findTestObject("password-field"), Password): Text 'Bcde123' is set on object 'Object Repository/password-field'
+
+23-09-2024T23:10:00 - [MESSAGE][PASSED] - Text 'Bcde123' is set on object 'Object Repository/password-field'
+
+23-09-2024T23:10:00 - [TEST_STEP][PASSED] - click(findTestObject("signin-btn")): Object: 'Object Repository/signin-btn' is clicked on
+
+23-09-2024T23:10:01 - [MESSAGE][PASSED] - Object: 'Object Repository/signin-btn' is clicked on
+
+23-09-2024T23:10:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+23-09-2024T23:10:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+23-09-2024T23:10:06 - [TEST_STEP][PASSED] - if (Username == "Nabilah"): null
+
+23-09-2024T23:10:06 - [TEST_STEP][PASSED] - else: Delayed 2 second(s)
+
+23-09-2024T23:10:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("errorlogin-txt"), 0): Object 'Object Repository/errorlogin-txt' is present
+
+23-09-2024T23:10:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-09-2024T23:10:06 - [MESSAGE][PASSED] - Object 'Object Repository/errorlogin-txt' is present
+
+23-09-2024T23:10:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-09-2024T23:10:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-09-2024T23:10:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-09-2024T23:10:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login-acc" time="22.678" classname="Test Cases/login-acc" status="PASSED">
+         <system-out><![CDATA[23-09-2024T23:10:08 - [TEST_CASE][PASSED] - Test Cases/login-acc: Test Cases/login-acc
+
+23-09-2024T23:10:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-09-2024T23:10:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-09-2024T23:10:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-09-2024T23:10:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-09-2024T23:10:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-09-2024T23:10:10 - [MESSAGE][PASSED] - Current window maximized
+
+23-09-2024T23:10:10 - [TEST_STEP][PASSED] - navigateToUrl(mainURL): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+23-09-2024T23:10:13 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+23-09-2024T23:10:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-09-2024T23:10:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-09-2024T23:10:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("user-menu"), 0): Object 'Object Repository/user-menu' is present
+
+23-09-2024T23:10:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-09-2024T23:10:16 - [MESSAGE][PASSED] - Object 'Object Repository/user-menu' is present
+
+23-09-2024T23:10:16 - [TEST_STEP][PASSED] - click(findTestObject("user-menu")): Object: 'Object Repository/user-menu' is clicked on
+
+23-09-2024T23:10:19 - [MESSAGE][PASSED] - Object: 'Object Repository/user-menu' is clicked on
+
+23-09-2024T23:10:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-09-2024T23:10:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-09-2024T23:10:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("username-field"), 0): Object 'Object Repository/username-field' is present
+
+23-09-2024T23:10:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-09-2024T23:10:21 - [MESSAGE][PASSED] - Object 'Object Repository/username-field' is present
+
+23-09-2024T23:10:21 - [TEST_STEP][PASSED] - setText(findTestObject("username-field"), Username): Text 'Izzati' is set on object 'Object Repository/username-field'
+
+23-09-2024T23:10:22 - [MESSAGE][PASSED] - Text 'Izzati' is set on object 'Object Repository/username-field'
+
+23-09-2024T23:10:22 - [TEST_STEP][PASSED] - setText(findTestObject("password-field"), Password): Text 'Cdef123' is set on object 'Object Repository/password-field'
+
+23-09-2024T23:10:23 - [MESSAGE][PASSED] - Text 'Cdef123' is set on object 'Object Repository/password-field'
+
+23-09-2024T23:10:23 - [TEST_STEP][PASSED] - click(findTestObject("signin-btn")): Object: 'Object Repository/signin-btn' is clicked on
+
+23-09-2024T23:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/signin-btn' is clicked on
+
+23-09-2024T23:10:23 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+23-09-2024T23:10:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+23-09-2024T23:10:28 - [TEST_STEP][PASSED] - if (Username == "Nabilah"): null
+
+23-09-2024T23:10:28 - [TEST_STEP][PASSED] - else: Delayed 2 second(s)
+
+23-09-2024T23:10:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("errorlogin-txt"), 0): Object 'Object Repository/errorlogin-txt' is present
+
+23-09-2024T23:10:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-09-2024T23:10:29 - [MESSAGE][PASSED] - Object 'Object Repository/errorlogin-txt' is present
+
+23-09-2024T23:10:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-09-2024T23:10:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-09-2024T23:10:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-09-2024T23:10:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-09-2024T23:09:20 - [TEST_SUITE][PASSED] - test-data: Test Cases/login-acc]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
